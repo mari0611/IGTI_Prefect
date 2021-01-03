@@ -33,4 +33,4 @@ with Flow("Titanic01", schedule=schedule) as flow:
     ed = exibe_dataset(df)
 
 flow.register(project_name='IGTI', idempotency_key=flow.serialized_hash())
-flow.run_agent(token='lkmSbmFSEMdPv4f5oHa7bw')
+flow.run_agent(token='')
